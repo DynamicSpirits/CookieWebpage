@@ -28,7 +28,29 @@
             });
         });
     </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            // Cache selectors for faster performance.
+            var $window = $(window),
+                $mainMenuBar = $('#bg'),
+                $mainMenuBarAnchor = $('#mainMenuBarAnchor');
 
+            // Run this on scroll events.
+            $window.scroll(function() {
+                var window_top = $window.scrollTop();
+                var div_top = $mainMenuBarAnchor.offset().top;
+                if (window_top > div_top) {
+                    // Make the div sticky.
+                    $mainMenuBar.addClass('sticks');
+                    $mainMenuBarAnchor.height($mainMenuBar.height());
+                } else {
+                    // Unstick the div.
+                    $mainMenuBar.removeClass('sticks');
+                    $mainMenuBarAnchor.height(0);
+                }
+            });
+        });
+    </script>
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="home1.css" rel="stylesheet" type="text/css">
     <style>
@@ -40,11 +62,19 @@
             color: #f39d9f;
         }
         
+        .sticks {
+            position: fixed;
+            top: 0;
+            left: 0;
+            margin: 0px;
+            height: 50px;
+        }
+        
         .stick {
             position: fixed;
             top: 0;
-            left: 0px;
             margin: 0px;
+            z-index: 999;
         }
     </style>
 </head>
@@ -72,7 +102,8 @@
             </div>
 
             <div id="mainMenuBarAnchor"></div>
-            <div style="background-color:white;width:100%;" class="collapse navbar-collapse" id="navbar-ex-collapse">
+            <div style="background-color:white;width:100%;" id="bg"></div>
+            <div class="collapse navbar-collapse" id="navbar-ex-collapse">
                 <ul class="nav navbar-centre navbar-left navbar-nav navbarcentre">
                     <li class="navbarself">
                         <img height="50" alt="Brand" src="http://img2.ph.126.net/bTYpuF7A_l9k4P_eqmL_aQ==/6632597186376407468.png">
