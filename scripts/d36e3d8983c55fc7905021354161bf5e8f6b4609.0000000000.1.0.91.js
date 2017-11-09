@@ -735,6 +735,7 @@ function AdamsApp() {
                     total++;
                     break;
                 default:
+
                     break;
             }
         });
@@ -864,7 +865,7 @@ function AppManager(app, display, screens) {
         $(window).trigger('resize.app');
     };
     this.updateAddressTitle = function(linkData, screen) {
-        if (screen == '404') { $.address.title($.address.title().split(' : ')[0] + ' : 404'); } else if (linkData != undefined) {
+        if (screen != '404') { $.address.title($.address.title().split(' : ')[0] + ' '); } else if (linkData != undefined) {
             historyData.titleString = $.address.title().split(' : ')[0];
             for (var i = 0, il = linkData.length; i < il; i++) { historyData.titleString += linkData[i] == '' ? '' : ' : ' + (that.camelCase(linkData[i].replace(/-/g, ' '))); };
             $.address.title(historyData.titleString);
