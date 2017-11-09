@@ -18,7 +18,7 @@ body {
     background-color: #ffc300;
     background-image: url(./images/bg/grain.png);
     background-position: center 0;
-    font-family: 'DrawnBody', Arial, Helvetica, sans-serif;
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -75,7 +75,7 @@ input {
 /* Fonts */
 
 @font-face {
-    font-family: 'AdamDrawn';
+    font-family: 'Avenir';
     src: url('./fonts/adamfont-webfont.eot');
     src: url('./fonts/adamfont-webfont.eot?#iefix') format('embedded-opentype'), url('./fonts/adamfont-webfont.woff') format('woff'), url('./fonts/adamfont-webfont.ttf') format('truetype'), url('./fonts/adamfont-webfont.svg#adamdrawnstandard') format('svg');
     font-weight: normal;
@@ -83,7 +83,7 @@ input {
 }
 
 @font-face {
-    font-family: 'DrawnBody';
+    font-family: 'Avenir';
     src: url('./fonts/drawnbody-webfont.eot');
     src: url('./fonts/drawnbody-webfont.eot?#iefix') format('embedded-opentype'), url('./fonts/drawnbody-webfont.woff') format('woff'), url('./fonts/drawnbody-webfont.ttf') format('truetype'), url('./fonts/drawnbody-webfont.svg#drawntextlight') format('svg');
     font-weight: normal;
@@ -455,7 +455,7 @@ input {
 #a-skills #map-planets-view .planet-item .planet-item-title {
     position: relative;
     color: #FFF;
-    font-family: 'AdamDrawn', Arial, Helvetica, sans-serif;
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-size: 1.2em;
     top: 65px;
@@ -649,7 +649,7 @@ input {
     font-size: 1.3em;
     color: #FFF;
     text-transform: uppercase;
-    font-family: 'AdamDrawn', Arial, Helvetica, sans-serif;
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
     text-shadow: 1px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -1087,7 +1087,7 @@ input {
 
 #a-skills .planet-element .planet-descrip {
     position: relative;
-    font-family: 'AdamDrawn', Arial, Helvetica, sans-serif;
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     margin-left: 340px;
 }
@@ -1112,7 +1112,7 @@ input {
 
 #a-skills .planet-element .planet-descrip .p-info {
     position: relative;
-    font-family: 'DrawnBody', Arial, Helvetica, sans-serif;
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
     font-size: 0.94em;
     color: #5f5f5f;
     text-transform: none;
@@ -1248,7 +1248,7 @@ input {
 
 #a-404 .error-title {
     font-size: 5em;
-    font-family: 'AdamDrawn', Arial, Helvetica, sans-serif;
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-weight: normal;
     color: #FFF;
@@ -1279,7 +1279,7 @@ input {
         font-size: 5em;
     }
     #a-skills .planet-element .planet-descrip .p-title {
-        font-size: 5em;
+        font-size: 3.5em;
     }
     #a-contact .postcard .p-title {
         font-size: 4em;
@@ -1639,7 +1639,7 @@ input {
     position: relative;
     display: inline-block;
     font-size: 1.3em;
-    font-family: 'AdamDrawn', Arial, Helvetica, sans-serif;
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-weight: normal;
     color: #fff;
@@ -1697,7 +1697,7 @@ p {
     height: 19px;
     position: relative;
     width: 90%;
-    font-family: 'DrawnBody', Arial, Helvetica, sans-serif;
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
 }
 
 .input-display .input-base {
@@ -1772,7 +1772,7 @@ p {
     height: 35px;
     position: relative;
     width: 100%;
-    font-family: 'DrawnBody', Arial, Helvetica, sans-serif;
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
     height: 110px;
     resize: none;
 }
@@ -1890,7 +1890,7 @@ p {
 }
 
 .validation-error {
-    font-family: 'AdamDrawn', Arial, Helvetica, sans-serif;
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-weight: normal;
     color: #26575b;
@@ -1900,7 +1900,7 @@ p {
 
 .sending,
 .logging-in {
-    font-family: 'AdamDrawn', Arial, Helvetica, sans-serif;
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-weight: normal;
     color: #FFF;
@@ -1910,7 +1910,7 @@ p {
 }
 
 .send-error {
-    font-family: 'AdamDrawn', Arial, Helvetica, sans-serif;
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-weight: normal;
     color: #FFF;
@@ -1921,7 +1921,7 @@ p {
 }
 
 .login-error {
-    font-family: 'AdamDrawn', Arial, Helvetica, sans-serif;
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-weight: normal;
     color: #FFF;
@@ -1948,7 +1948,7 @@ p {
 
 h1 {
     font-size: 3em;
-    font-family: 'AdamDrawn', Arial, Helvetica, sans-serif;
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-weight: normal;
     line-height: 1em;
@@ -1957,7 +1957,7 @@ h1 {
 
 h2 {
     font-size: 1.4em;
-    font-family: 'AdamDrawn', Arial, Helvetica, sans-serif;
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-weight: normal;
 }
@@ -1965,13 +1965,13 @@ h2 {
 h4 {
     font-size: 0.9em;
     color: #f3f3f3;
-    font-family: 'AdamDrawn', Arial, Helvetica, sans-serif;
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-weight: normal;
 }
 
 .form-info {
-    font-family: 'AdamDrawn', Arial, Helvetica, sans-serif;
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
     text-transform: uppercase;
     font-weight: normal;
     color: #FFF;
@@ -2088,12 +2088,13 @@ h4 {
     display: inline-block;
     height: 29px;
     line-height: 29px;
-    font-family: 'AdamDrawn', Arial, Helvetica, sans-serif;
+    font-family: 'Avenir', Arial, Helvetica;
     color: #FFF;
     text-transform: uppercase;
     font-weight: normal;
     text-decoration: none;
     overflow: hidden;
+    font-size: 1px;
 }
 
 .w-btn .w-btn-el {
@@ -2135,7 +2136,7 @@ h4 {
     display: block;
     height: 29px;
     margin: 0 9px;
-    background-size: 72px 29px;
+    background-size: 80px 29px;
     background-repeat: repeat-y;
 }
 
@@ -2238,7 +2239,7 @@ h4 {
     height: 1px;
     overflow: hidden;
     text-indent: -2000px;
-    font-family: 'AdamDrawn', Arial, Helvetica, sans-serif;
+    font-family: 'Avenir', Arial, Helvetica, sans-serif;
 }
 
 .sec-loader .sec-loader-display .sec-loader-gauge {
