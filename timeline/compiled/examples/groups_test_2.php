@@ -86,20 +86,18 @@
             margin: 0px;
             z-index: 999;
         }
-      html, body {
-   
-      }
+        html, body {
+            height:100%;
+            width:100%;
+            padding: 0px;
+            margin: 0px;
+          font-family: Avenir;
+        }
       .vco-timeline {
-        font-family: Avenir;
+        
       	
       }
-      .tl-storyjs{
-         font-family: Avenir;
-      }
-      .text{
-         font-family: Avenir;
-      }
-      
+    
     </style>
     <!-- HTML5 shim, for IE6-8 support of HTML elements-->
     <!--if lt IE 9
@@ -242,8 +240,9 @@
     </footer>
 
     <script src="../js/timeline.js"></script>
+
     <script>
-      var timeline = new TL.Timeline('timeline', 'groups_test_2json.php', {
+      var timeline = new TL.Timeline('timeline', 'groups_test_2json.json', {
       	
       });
       window.onresize = function(event) {
