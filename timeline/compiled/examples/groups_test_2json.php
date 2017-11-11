@@ -4,7 +4,7 @@
 		        "media": {
 		            "caption": "",
 		            "credit": "",
-		            "url": "IMG_1597.jpg",
+		            "url": "IMG_1597.JPG",
 		            "thumb": 	""
 		        },
 	            "text": {
@@ -67,18 +67,19 @@
                 "millisecond":  "",
                 "format":       ""
             },
-			"group": "Internship",
+            "group": "Internship",
             "media": {
-                "caption": "",
+                "caption": "ELLE CHINA",
                 "credit": "",
                 "url": "elle.jpg",
-                "thumb": 	""
+                "thumb":    ""
             },
             "text": {
                 "headline": "ELLE CHINA",
                 "text": "<br>△ Responsible for daily updating of the column Elle China lifestyle<br>△ Contribute to ELLEChina WeChat, with a daily average page view at about 20 000, reaching a peak at over 70 000 and 400 likes<br>△ Attend PR events as media representative"
             }
         },
+			
         {
             "start_date": {
                 "year":			"2014",
@@ -104,7 +105,7 @@
             "media": {
                 "caption": "SISUSNAP",
                 "credit": "",
-                "url": "sisusnap.gif",
+                "url": "http://mmbiz.qpic.cn/mmbiz_gif/lePQSD9cvUGibTZzxe1AoAPk5w7miburCAv6QbD8QftANBotUMQzOsCibkVgYibnyAxpw0ibA4VfYJPfzbibby1InoSA/0?wx_fmt=gif&tp=webp&wxfrom=5&wx_lazy=1",
                 "thumb": 	""
             },
             "text": {
@@ -137,7 +138,7 @@
             "media": {
                 "caption": "Life of Pure Pleasure",
                 "credit": "",
-                "url": "purelife.png",
+                "url": "http://img0.ph.126.net/A_TSNjavLQJ56cR7UNG5dA==/2599139934965322219.png",
                 "thumb": 	""
             },
             "text": {
@@ -160,7 +161,7 @@
             "media": {
                 "caption": "",
                 "credit": "",
-                "url": "CUHK.jpeg",
+                "url": "http://img1.ph.126.net/Cl3U9lG7CidWuZ29qBlCWQ==/6632753317025039902.jpeg",
                 "thumb": 	""
             },
             "text": {
@@ -193,7 +194,7 @@
             "media": {
                 "caption": "SJC Basketball Team",
                 "credit": "",
-                "url": "basketball.jpeg",
+                "url": "http://img2.ph.126.net/Ti6vg0QwtvnGO5L-pLba1w==/6632647763908765115.jpeg",
                 "thumb": 	""
             },
             "text": {
