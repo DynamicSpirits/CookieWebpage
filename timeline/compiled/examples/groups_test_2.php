@@ -160,7 +160,10 @@
         </div>
     </div>
 
-           <div class="section">
+           
+       <div id="timeline"></div>
+
+       <div class="section">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">  
@@ -168,7 +171,7 @@
                 <div class="col-md-7">
                 </div>
                 <div class="col-md-1">
-                    <div class="btn-group sidebar" style="z-index:999">
+                    <div class="btn-group sidebar" style="width:6em;z-index:999">
                         <a href="../../../about1.html" style="color: #f39d9f;" class="active btn btn-block btn-default btn-sm">Profile</a>
                         <a href="../../../skills.html" class="btn btn-block btn-default btn-sm">Skills</a>
                         <a href="./groups_test_2.php" class="btn btn-block btn-default btn-sm" data-toggle="modal">Experience</a>
@@ -177,9 +180,7 @@
             </div>
         </div>
     </div>
-       <div id="timeline"></div>
-
-
+    
         <div class="section">
         <div class="container">
             <div class="row">
