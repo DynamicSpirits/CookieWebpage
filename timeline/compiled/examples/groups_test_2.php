@@ -87,11 +87,7 @@
             z-index: 999;
         }
       html, body {
-      	height:100%;
-      	width:100%;
-      	padding: 0px;
-      	margin: 0px;
-        font-family: Avenir;
+   
       }
       .vco-timeline {
         font-family: Avenir;
