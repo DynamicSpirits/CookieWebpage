@@ -89,13 +89,7 @@
         }
         
         html,
-        body {
-            height: 100%;
-            width: 100%;
-            padding: 0px;
-            margin: 0px;
-            font-family: Avenir;
-        }
+        body {}
         
         .vco-timeline {}
     </style>
@@ -167,10 +161,10 @@
                 <div class="col-md-7">
                 </div>
                 <div class="col-md-1">
-                    <div class="btn-group sidebar" style="z-index:999">
+                    <div class="btn-group sidebar" style="width:6em;z-index:999">
                         <a href="../../../about1.html" style="color: #f39d9f;" class="active btn btn-block btn-default btn-sm">Profile</a>
                         <a href="../../../skills.html" class="btn btn-block btn-default btn-sm">Skills</a>
-                        <a href="./groups_test_2.php" class="btn btn-block btn-default btn-sm" data-toggle="modal">Experience</a>
+                        <a href="./groups_test_3.html" class="btn btn-block btn-default btn-sm" data-toggle="modal">Experience</a>
                     </div>
                 </div>
             </div>
@@ -243,7 +237,7 @@
     <script src="../js/timeline.js"></script>
 
     <script>
-        var timeline = new TL.Timeline('timeline', 'groups_test_2.json', {
+        var timeline = new TL.Timeline('timeline', 'groups_test_2json.json', {
 
         });
         window.onresize = function(event) {
