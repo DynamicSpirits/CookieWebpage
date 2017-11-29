@@ -821,7 +821,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact h2 {
-    font-family: "Avenir", Helvetica, Arial, sans-serif;
+    font-family: "chalkduster", Helvetica, Arial, sans-serif;
     color: #eb6062;
 }
 
@@ -882,7 +882,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     border: 1px solid #dddddd;
     padding: 10px 24px;
     color: #eb6062;
-    font-family: "Avenir";
+    font-family: "chalkduster";
     font-weight: normal;
     -webkit-transition: 0.4s;
     -o-transition: 0.4s;
